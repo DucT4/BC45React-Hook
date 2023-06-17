@@ -21,6 +21,9 @@ import UseNavigateDemo from './pages/Hooks/UseNavigateDemo';
 import Profile from './pages/Profile';
 import ForgotPass from './pages/ForgotPass';
 import UseSearchParamDemo from './pages/Hooks/UseSearchParamDemo/UseSearchParamDemo';
+import CustomHookDemo from './pages/CustomHookDemo';
+import DemoAntDemo from './pages/DemoAntDemo';
+import Phim from './pages/Phim';
 
 
 
@@ -47,6 +50,9 @@ root.render(
           <Route path='profile' element={<Profile />}></Route>
           <Route path='forgotpass' element={<ForgotPass />}></Route>
           <Route path='usesearch-param' element={<UseSearchParamDemo />}></Route>
+          <Route path='custom-hook' element={<CustomHookDemo />}></Route>
+          <Route path='ant-design' element={<DemoAntDemo />}></Route>
+          <Route path='phim' element={<Phim />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

@@ -27,6 +27,9 @@ const Header = () => {
               <NavLink className="dropdown-item" to="/useredux"> UseRedux</NavLink>
               <NavLink className="dropdown-item" to="/usenavigate"> UseNavigate</NavLink>
               <NavLink className="dropdown-item" to="/usesearch-param"> UseSearch Param</NavLink>
+              <NavLink className="dropdown-item" to="/custom-hook"> Custom Hook</NavLink>
+              <NavLink className="dropdown-item" to="/ant-design"> Ant Design</NavLink>
+              <NavLink className="dropdown-item" to="/phim"> DemoAsyncAction</NavLink>
 
             </div>
           </li>
